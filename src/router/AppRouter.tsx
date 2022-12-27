@@ -6,7 +6,7 @@ import { AuthRoutes } from '../auth/';
 
 import { CalendarPage } from '../calendar';
 
-import { useAuthStore } from '../hook/';
+import { useAuthStore } from '../hooks';
 
 import { Loader } from '../components';
 

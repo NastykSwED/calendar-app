@@ -14,7 +14,7 @@ import {
 
 import { localizer, getMessagesEN } from '../../helpers';
 
-import { useUiStore, useCalendarStore, useAuthStore } from '../../hook';
+import { useUiStore, useCalendarStore, useAuthStore } from '../../hooks';
 
 export const CalendarPage = () => {
 	const { onOpenModal, isDateModalOpen } = useUiStore();

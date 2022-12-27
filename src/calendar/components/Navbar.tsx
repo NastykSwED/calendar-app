@@ -10,7 +10,7 @@ import {
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import LogoutIcon from '@mui/icons-material/Logout';
 import React from 'react';
-import { useAuthStore } from '../../hook/useAuthStore';
+import { useAuthStore } from '../../hooks/useAuthStore';
 
 export const Navbar = () => {
 	const { startLogout, user } = useAuthStore();
@@ -32,7 +32,7 @@ export const Navbar = () => {
 				<IconButton color='inherit' aria-label='menu' sx={{ mr: 1 }}>
 					<CalendarMonthIcon fontSize='large' />
 				</IconButton>
-				<Typography component='h1' sx={{ flexGrow: 1, fontSize:'28px' }}>
+				<Typography component='h1' sx={{ flexGrow: 1, fontSize: '28px' }}>
 					{user?.name}
 				</Typography>
 				<Button

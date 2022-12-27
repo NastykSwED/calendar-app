@@ -1,4 +1,4 @@
-import { useForm } from '../../hook/useForm';
+import { useForm } from '../../hooks/useForm';
 import {
 	Avatar,
 	Button,
@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 
 import Swal from 'sweetalert2';
-import { useAuthStore } from '../../hook/useAuthStore';
+import { useAuthStore } from '../../hooks/useAuthStore';
 import { useEffect } from 'react';
 import { LockOutlined } from '@mui/icons-material';
 

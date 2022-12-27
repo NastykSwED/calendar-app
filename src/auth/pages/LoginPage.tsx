@@ -13,7 +13,7 @@ import { LockOutlined } from '@mui/icons-material';
 
 import { Link } from 'react-router-dom';
 
-import { useForm, useAuthStore } from '../../hook';
+import { useForm, useAuthStore } from '../../hooks';
 
 import Swal from 'sweetalert2';
 

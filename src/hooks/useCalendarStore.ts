@@ -13,7 +13,7 @@ import calendarApi from '../api/calendarApi';
 
 import { AxiosResponse, AxiosError } from 'axios';
 
-import { convertEventsToDateEvents } from '../helpers/';
+import { convertEventsToDateEvents } from '../helpers';
 
 import Swal from 'sweetalert2';
 

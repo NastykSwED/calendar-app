@@ -1,7 +1,7 @@
 import DeleteIcon from '@mui/icons-material/Delete';
 import { Fab } from '@mui/material';
-import { useCalendarStore } from '../../hook/useCalendarStore';
-import { useUiStore } from '../../hook/useUiStore';
+import { useCalendarStore } from '../../hooks/useCalendarStore';
+import { useUiStore } from '../../hooks/useUiStore';
 
 export const FabDelete = () => {
 	const { startDeleteActiveEvent, hasEvenSelected } = useCalendarStore();

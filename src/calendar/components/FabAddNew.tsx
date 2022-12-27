@@ -1,9 +1,9 @@
 import { Fab } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
-import { useUiStore } from '../../hook/useUiStore';
-import { useCalendarStore } from '../../hook/useCalendarStore';
+import { useUiStore } from '../../hooks/useUiStore';
+import { useCalendarStore } from '../../hooks/useCalendarStore';
 import { addHours } from 'date-fns';
-import { useAppSelector } from '../../hook/useRedux';
+import { useAppSelector } from '../../hooks/useRedux';
 
 export const FabAddNew = () => {
 	const { user } = useAppSelector(state => state.auth);

@@ -17,8 +17,8 @@ import SaveIcon from '@mui/icons-material/Save';
 import { addHours } from 'date-fns';
 import { DateTimePicker } from '@mui/x-date-pickers';
 import { differenceInSeconds } from 'date-fns/esm';
-import { useUiStore } from '../../hook';
-import { useCalendarStore } from '../../hook/useCalendarStore';
+import { useUiStore } from '../../hooks';
+import { useCalendarStore } from '../../hooks/useCalendarStore';
 
 const styles = {
 	position: 'absolute' as 'absolute',
@@ -101,7 +101,6 @@ export const CalendarModal = () => {
 		clearActiveEvent();
 	};
 
-
 	useEffect(() => {
 		if (activeEvent !== null) {
 			setFormValues({
@@ -172,11 +171,7 @@ export const CalendarModal = () => {
 						</Box>
 
 						<Box mt={2}>
-							<Button
-								type='submit'
-								variant='outlined'
-								startIcon={<SaveIcon />}
-							>
+							<Button type='submit' variant='outlined' startIcon={<SaveIcon />}>
 								Save
 							</Button>
 						</Box>

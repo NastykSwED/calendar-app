@@ -6,7 +6,8 @@
 	"scripts": {
 		"dev": "vite --open",
 		"build": "tsc && vite build",
-		"preview": "vite preview --open"
+		"preview": "vite preview --open",
+		"test": "vitest"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.10.5",
@@ -33,6 +34,7 @@
 		"@types/react-dom": "^18.0.9",
 		"@vitejs/plugin-react": "^3.0.0",
 		"jdom": "^3.2.5",
+		"jsdom": "^20.0.3",
 		"sass": "^1.57.1",
 		"typescript": "^4.9.3",
 		"vite": "^4.0.0",
