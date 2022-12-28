@@ -87,11 +87,9 @@ Start the Frontend Server
 To run this project, you will need to add the following environment variables to your `.env` file
 
 ```shell
-PORT = #Your port here
+VITE_MODE = #Your Vite_Mode here
 
-DB_CNN = #Your database_url here
-
-SECRET_JWT_SEED = #Your secret_JWT_seed here
+VITE_API_URL = #Your localhost or backend_url here
 ```
 
 ## Running Tests
